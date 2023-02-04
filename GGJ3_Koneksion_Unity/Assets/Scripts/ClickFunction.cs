@@ -9,6 +9,6 @@ public class ClickFunction : MonoBehaviour
     void OnMouseDown()
     {
         Debug.Log(myTarget.gameObject.name);
-        AkSoundEngine.PostEvent("Play_Test", this.gameObject);
+        AkSoundEngine.PostEvent("Play_TRACK_1", this.gameObject);
     }
 }
