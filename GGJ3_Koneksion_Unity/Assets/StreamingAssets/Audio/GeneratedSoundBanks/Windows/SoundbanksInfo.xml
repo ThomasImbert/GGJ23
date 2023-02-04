@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{E646D225-E560-44E5-357A-E2D119BF7C02}">
+		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{48B4251B-5B8B-AA5D-5A50-466DF2B1B480}">
 			<ShortName>JPP</ShortName>
 			<Path>JPP.bnk</Path>
 			<Media>
@@ -68,14 +68,7 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="3187507146" Name="Play_Test" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="447110891"/>
-						</Custom>
-					</PluginRefs>
-				</Event>
-				<Event Id="2142648703" Name="Play_TRACK_1" DurationType="Infinite">
+				<Event Id="2135754993" Name="Play_ROOTS" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="6838777"/>
 						<MediaRef Id="56426120"/>
@@ -91,7 +84,14 @@
 						<MediaRef Id="925900244"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3077474657" Name="Stop_TRACK_1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3187507146" Name="Play_Test" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="447110891"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4220051187" Name="Stop_ROOTS" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{12CFA26C-37A2-8320-D207-FB3D9E728D5F}">
@@ -221,7 +221,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" Language="SFX">
+		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{C4DFA487-9B78-ECC4-41DC-9E1ECEECA6A0}">
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
 			<Plugins>
@@ -240,5 +240,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C7E85BBB-84E2-807D-8825-832D1DEA7F5E}</FileHash>
+	<FileHash>{39D7E084-A270-C8A1-28E3-B3DA4E28DF28}</FileHash>
 </SoundBanksInfo>

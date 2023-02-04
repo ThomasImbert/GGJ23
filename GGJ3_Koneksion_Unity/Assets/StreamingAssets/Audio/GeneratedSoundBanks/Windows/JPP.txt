@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2142648703	Play_TRACK_1			\Default Work Unit\Play_TRACK_1	
-	3077474657	Stop_TRACK_1			\Default Work Unit\Stop_TRACK_1	
+	2135754993	Play_ROOTS			\Default Work Unit\Play_ROOTS	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
+	4220051187	Stop_ROOTS			\Default Work Unit\Stop_ROOTS	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	447110891	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\Test\Sine	
