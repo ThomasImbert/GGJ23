@@ -465,3 +465,6 @@ WwiseUnityIntegration_*_Src.zip
 # Assets/Plugins/Editor/Jetbrains.meta
 # Assets/Plugins/Editor/Jetbrains/
 # .idea
+GGJ3_Koneksion_Unity/Assets/Wwise/ScriptableObjects/Windows.asset
+GGJ3_Koneksion_Unity/Assets/Wwise/ScriptableObjects/AkWwiseInitializationSettings.asset
+GGJ3_Koneksion_Unity/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
