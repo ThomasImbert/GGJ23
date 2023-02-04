@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="GGJ23_WwiseProject" GUID="{240E9106-51EC-493D-8FD3-3287BB7AFA98}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../../GGJ23_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{FC4FB866-19B5-48F4-B09D-8754F1ED9F1A}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../GGJ23_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{C9DB2F3D-165A-4B29-907B-6139A9375CF9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{F28DC2D7-B096-B3D9-6B03-A9099B597F09}</FileHash>
+</ProjectInfo>
