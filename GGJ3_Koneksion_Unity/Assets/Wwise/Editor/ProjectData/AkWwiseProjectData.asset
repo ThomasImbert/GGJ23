@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c4405389e94ebe47abf26188999b774e
     GuidInternal: 
-    m_lastTime: -8585260992950158063
+    m_lastTime: -8585260756397822166
     List:
+    - name: JPP
+      guid: 1b080845add5224dbc02a4046296360d
+      id: 1065771773
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c4405389e94ebe47abf26188999b774e
+      - ElementName: JPP
+        ObjectType: 7
+        guid: 1b080845add5224dbc02a4046296360d
+      Path: SoundBanks\Default Work Unit\JPP
     - name: Test
       guid: 0be9500320bbab4c9259e71ba90f3129
       id: 3157003241
@@ -359,7 +373,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48348d2128194947b11d61ceeebfa0e5
     GuidInternal: 
-    m_lastTime: -8585260992950257923
+    m_lastTime: -8585260756412869264
     List:
     - name: Play_Test
       guid: 3988175a3627334daf25d7425b638c67
@@ -375,6 +389,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3988175a3627334daf25d7425b638c67
       Path: Events\Default Work Unit\Play_Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TRACK_1
+      guid: 048d264a4a9dd549b6f596fc13e8554a
+      id: 2142648703
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Play_TRACK_1
+        ObjectType: 3
+        guid: 048d264a4a9dd549b6f596fc13e8554a
+      Path: Events\Default Work Unit\Play_TRACK_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_TRACK_1
+      guid: 24f3525a205b6743a114d3b1185d8abb
+      id: 3077474657
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Stop_TRACK_1
+        ObjectType: 3
+        guid: 24f3525a205b6743a114d3b1185d8abb
+      Path: Events\Default Work Unit\Stop_TRACK_1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
