@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2142648703	Play_TRACK_1			\Default Work Unit\Play_TRACK_1	
+	3077474657	Stop_TRACK_1			\Default Work Unit\Stop_TRACK_1	
+	3187507146	Play_Test			\Default Work Unit\Play_Test	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	447110891	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\Test\Sine	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2523901	KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PA\KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT		1361153
+	159081183	KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PB\KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT		2317093
+	234125347	KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PA\KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER		2929452
+	309556137	KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS 	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PA\KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS 		3042963
+	485017162	KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PB\KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD		1654419
+	536605961	KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS 	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PB\KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS 		2071623
+	618109829	KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PA\KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD		2959421
+	649930023	KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PB\KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER		2050029
+	785958754	KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR 	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PA\KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR 		3050017
+	877169993	KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PB\KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO		1647848
+	888208881	KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR 	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PB\KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR 		2019732
+	1052259110	KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\TRACK 1\TRACK 1 PA\KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO		2515877
+
