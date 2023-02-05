@@ -1,14 +1,31 @@
 Event	ID	Name			Wwise Object Path	Notes
 	315336149	Play_GRAVEYARD			\Default Work Unit\Play_GRAVEYARD	
 	505928471	Stop_GRAVEYARD			\Default Work Unit\Stop_GRAVEYARD	
+	1312697745	Play_AMBIANCE_SWITCH			\Default Work Unit\Play_AMBIANCE_SWITCH	
 	1473554808	Play_FLOOR			\Default Work Unit\Play_FLOOR	
 	2135754993	Play_ROOTS			\Default Work Unit\Play_ROOTS	
+	2187493489	Play_OUTLET			\Default Work Unit\Play_OUTLET	
+	2459940809	Play_BUZZES			\Default Work Unit\Play_BUZZES	
+	2478053135	Stop_AMBIANCE_SWITCH			\Default Work Unit\Stop_AMBIANCE_SWITCH	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
 	3605768394	Stop_FLOOR			\Default Work Unit\Stop_FLOOR	
+	3753166191	Stop_BUZZES			\Default Work Unit\Stop_BUZZES	
 	4220051187	Stop_ROOTS			\Default Work Unit\Stop_ROOTS	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	439968226	Amb_Switch			\Default Work Unit\Amb_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	117868958	Fifth_Rectangle	Amb_Switch			
+	418045379	First_Rectangle	Amb_Switch			
+	1281810935	Start	Amb_Switch			
+	1529178447	Second_Rectangle	Amb_Switch			
+	1737148314	Third_Rectangle	Amb_Switch			
+	1985572375	Fourth_Rectangle	Amb_Switch			
 
 State Group	ID	Name			Wwise Object Path	Notes
 	3826569560	Music_State			\Default Work Unit\Music_State	
+	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
 	296419799	First_Outlet	Music_State			
@@ -21,6 +38,9 @@ State	ID	Name	State Group			Notes
 	3430678834	Eight_Outlet	Music_State			
 	3663346869	Sixth_Outlet	Music_State			
 	3791539724	Seventh_Outlet	Music_State			
+	748895195	None	GameState			
+	1256202815	Play	GameState			
+	2607556080	Menu	GameState			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	816649	Eight_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER		
@@ -69,6 +89,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	543331958	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
 	549686655	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT		
 	574844728	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
+	576515519	Menu	GameState	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH		
 	578366449	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
 	589305581	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		
 	607876497	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
@@ -109,7 +130,8 @@ Custom State	ID	Name	State Group	Owner		Notes
 	1070757399	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	3131952431	Music_Volume_RTPC			\Default Work Unit\Music_Volume_RTPC	
+	2323009266	Zoom_RTPC			\Default Work Unit\Zoom_RTPC	
+	2654583815	SFX_Volume_RTPC			\Default Work Unit\SFX_Volume_RTPC	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	447110891	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\Test\Sine	
@@ -118,21 +140,40 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6838777	ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		3407139
 	56426120	ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER		2049320
 	103989039	ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD\ELECTRICAL OUTLET GRAVEYARD PA\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER		926460
+	109473593	KONEKSION - START	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - SD_D76C7458.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIANCE SWITCH\KONEKSION - START		4907137
 	134368730	ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT		2350451
+	152322747	KONEKSION - BUZZ 5	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 5_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 5		126775
+	175787860	KONEKSION - FOURTH RECTANGLE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - FOURTH RECTANGLE_B2D85705.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIANCE SWITCH\KONEKSION - FOURTH RECTANGLE		4624750
+	236837832	KONEKSION - OUTLET 2	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - OUTLET 2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OUTLET\KONEKSION - OUTLET 2		162623
+	247202181	KONEKSION - OUTLET 1	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - OUTLET 1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OUTLET\KONEKSION - OUTLET 1		240608
 	249663418	ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER		3064484
 	270942030	ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD		2962400
+	306036284	KONEKSION - CONTINUOUS BUZZ	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - CONTINUOUS BUZZ_D48553C7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\KONEKSION - CONTINUOUS BUZZ		979586
 	359791965	FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		1940787
 	400686110	ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS		2330347
 	415641626	ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR		1999250
+	431750729	KONEKSION - BUZZ 4	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 4_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 4		120718
 	451968940	ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO		1647172
 	455239662	FLOORSCRAPER - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		1627534
 	463353919	ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD\ELECTRICAL OUTLET GRAVEYARD PA\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD		796146
+	511416885	KONEKSION - OUTLET 3	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - OUTLET 3_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OUTLET\KONEKSION - OUTLET 3		188299
 	517735802	FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		1790557
+	542861868	KONEKSION - OUTLET 5	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - OUTLET 5_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OUTLET\KONEKSION - OUTLET 5		232272
+	623688083	KONEKSION - BUZZ 1	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 1_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 1		146895
 	714764727	ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD		1629573
 	757255039	ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		3355128
+	764827914	KONEKSION - BUZZ 7	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 7_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 7		164601
 	764972239	FLOORSCRAPER - 83 BPM - STEM DRONE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM DRONE_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		2488998
+	792188403	KONEKSION - BUZZ 3	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 3_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 3		141098
 	795774841	ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		3034166
 	811357329	ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD\ELECTRICAL OUTLET GRAVEYARD PA\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO		640615
 	889915326	FLOORSCRAPER - 83 BPM - STEM GTR	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		1508492
+	899524167	KONEKSION - FIRST RECTANGLE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - FIRST RECTANGLE_BE208114.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIANCE SWITCH\KONEKSION - FIRST RECTANGLE		4430510
+	918219294	KONEKSION - BUZZ 2	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 2_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 2		147875
 	925900244	ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO		2567034
+	938547331	KONEKSION - THIRD RECTANGLE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - THIRD RECTANGLE_1_97DF2669.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIANCE SWITCH\KONEKSION - THIRD RECTANGLE		4954301
+	945526079	KONEKSION - FIFTH RECTANGLE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - FIFTH RECTANGLE_E61F0278.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIANCE SWITCH\KONEKSION - FIFTH RECTANGLE		4619117
+	974856993	KONEKSION - SECOND RECTANGLE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - SECOND RECTANGLE_77F8526F.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMBIANCE SWITCH\KONEKSION - SECOND RECTANGLE		4776475
+	1008671491	KONEKSION - BUZZ 6	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - BUZZ 6_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\BUZZES\BUZZ RANDOM\KONEKSION - BUZZ 6		251985
+	1046007714	KONEKSION - OUTLET 4	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\KONEKSION - OUTLET 4_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\OUTLET\KONEKSION - OUTLET 4		235826
 
