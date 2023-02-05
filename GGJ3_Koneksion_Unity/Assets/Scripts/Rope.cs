@@ -10,12 +10,15 @@ public class Rope : MonoBehaviour
     private float ropeSegLen = 0.25f;
     private int segmentLength = 35;
     private float lineWidth = 0.1f;
+    Vector3 ropeStartPoint;
 
     // Use this for initialization
     void Start()
     {
         this.lineRenderer = this.GetComponent<LineRenderer>();
-        Vector3 ropeStartPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        // Vector3 ropeStartPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        ropeStartPoint = new Vector3(-1.3f , 3.0f, -0.1f);
+        //ropeStartPoint.z = (float)-0.01; 
 
         for (int i = 0; i < segmentLength; i++)
         {
