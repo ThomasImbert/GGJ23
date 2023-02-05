@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>../../../../../../../GGJ23_Wwise/GGJ23_WwiseProject</ProjectRoot>
-		<SourceFilesRoot>../../../../../../../GGJ23_Wwise/GGJ23_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../GGJ23_Wwise/GGJ23_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../../GGJ23_Wwise/GGJ23_WwiseProject/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../../GGJ23_Wwise/GGJ23_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../GGJ23_Wwise/GGJ23_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{739E39F7-4615-0B35-CB5C-BE69EE11CF66}">
+		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{B0250D7D-C5D4-1EF7-2888-0846A1979FD0}">
 			<ShortName>JPP</ShortName>
 			<Path>JPP.bnk</Path>
 			<Media>
@@ -27,7 +27,7 @@
 				</File>
 				<File Id="109473593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - SD.wav</ShortName>
-					<CachePath>SFX/KONEKSION - SD_D76C7458.wem</CachePath>
+					<CachePath>SFX/KONEKSION - SD_BFB35445.wem</CachePath>
 				</File>
 				<File Id="134368730" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT.wav</ShortName>
@@ -39,7 +39,7 @@
 				</File>
 				<File Id="175787860" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - FOURTH RECTANGLE.wav</ShortName>
-					<CachePath>SFX/KONEKSION - FOURTH RECTANGLE_B2D85705.wem</CachePath>
+					<CachePath>SFX/KONEKSION - FOURTH RECTANGLE_D955125A.wem</CachePath>
 				</File>
 				<File Id="236837832" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - OUTLET 2.wav</ShortName>
@@ -59,7 +59,7 @@
 				</File>
 				<File Id="306036284" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - CONTINUOUS BUZZ.wav</ShortName>
-					<CachePath>SFX/KONEKSION - CONTINUOUS BUZZ_D48553C7.wem</CachePath>
+					<CachePath>SFX/KONEKSION - CONTINUOUS BUZZ_43B92C25.wem</CachePath>
 				</File>
 				<File Id="359791965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
@@ -139,7 +139,7 @@
 				</File>
 				<File Id="899524167" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - FIRST RECTANGLE.wav</ShortName>
-					<CachePath>SFX/KONEKSION - FIRST RECTANGLE_BE208114.wem</CachePath>
+					<CachePath>SFX/KONEKSION - FIRST RECTANGLE_CF67F3A5.wem</CachePath>
 				</File>
 				<File Id="918219294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - BUZZ 2.wav</ShortName>
@@ -151,15 +151,19 @@
 				</File>
 				<File Id="938547331" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - THIRD RECTANGLE_1.wav</ShortName>
-					<CachePath>SFX/KONEKSION - THIRD RECTANGLE_1_97DF2669.wem</CachePath>
+					<CachePath>SFX/KONEKSION - THIRD RECTANGLE_1_EB0FF74B.wem</CachePath>
 				</File>
 				<File Id="945526079" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - FIFTH RECTANGLE.wav</ShortName>
-					<CachePath>SFX/KONEKSION - FIFTH RECTANGLE_E61F0278.wem</CachePath>
+					<CachePath>SFX/KONEKSION - FIFTH RECTANGLE_08A6B29C.wem</CachePath>
+				</File>
+				<File Id="952264231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION_-_BUTTON.wav</ShortName>
+					<CachePath>SFX/KONEKSION_-_BUTTON_755F56E2.wem</CachePath>
 				</File>
 				<File Id="974856993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - SECOND RECTANGLE.wav</ShortName>
-					<CachePath>SFX/KONEKSION - SECOND RECTANGLE_77F8526F.wem</CachePath>
+					<CachePath>SFX/KONEKSION - SECOND RECTANGLE_48323DD9.wem</CachePath>
 				</File>
 				<File Id="1008671491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>KONEKSION - BUZZ 6.wav</ShortName>
@@ -237,6 +241,11 @@
 						<MediaRef Id="889915326"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1497459184" Name="Play_GameStart" DurationType="OneShot" DurationMin="0.29333332" DurationMax="0.29333332">
+					<MediaRefs>
+						<MediaRef Id="952264231"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="315336149" Name="Play_GRAVEYARD" DurationType="OneShot" DurationMin="26.775555" DurationMax="26.775555">
 					<MediaRefs>
 						<MediaRef Id="103989039"/>
@@ -254,23 +263,43 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2135754993" Name="Play_ROOTS" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="6838777"/>
-						<MediaRef Id="56426120"/>
-						<MediaRef Id="134368730"/>
-						<MediaRef Id="249663418"/>
-						<MediaRef Id="270942030"/>
-						<MediaRef Id="400686110"/>
-						<MediaRef Id="415641626"/>
-						<MediaRef Id="451968940"/>
-						<MediaRef Id="714764727"/>
-						<MediaRef Id="757255039"/>
-						<MediaRef Id="795774841"/>
-						<MediaRef Id="925900244"/>
-					</MediaRefs>
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="3826569560" Id="782826392" Name="Default"/>
-					</ActionSetState>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3826569560" Id="782826392"/>
+							<MediaRefs>
+								<MediaRef Id="6838777"/>
+								<MediaRef Id="56426120"/>
+								<MediaRef Id="134368730"/>
+								<MediaRef Id="249663418"/>
+								<MediaRef Id="270942030"/>
+								<MediaRef Id="400686110"/>
+								<MediaRef Id="415641626"/>
+								<MediaRef Id="451968940"/>
+								<MediaRef Id="714764727"/>
+								<MediaRef Id="757255039"/>
+								<MediaRef Id="795774841"/>
+								<MediaRef Id="925900244"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3826569560" Id="2221782172"/>
+							<MediaRefs>
+								<MediaRef Id="359791965"/>
+								<MediaRef Id="455239662"/>
+								<MediaRef Id="517735802"/>
+								<MediaRef Id="764972239"/>
+								<MediaRef Id="889915326"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3826569560" Id="3430678834"/>
+							<MediaRefs>
+								<MediaRef Id="103989039"/>
+								<MediaRef Id="463353919"/>
+								<MediaRef Id="811357329"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3187507146" Name="Play_Test" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
 					<PluginRefs>
@@ -318,7 +347,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F0058A6C-48AE-37C2-6779-77CC25301452}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BAC49430-CC14-3859-6413-3B16BAA3A911}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -490,24 +519,10 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" Language="SFX">
+		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{71D9668C-20CB-BB10-58BA-25C1B70D314C}">
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
-			<Plugins>
-				<Custom>
-					<Plugin Id="447110891" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-				</Custom>
-			</Plugins>
-			<Events>
-				<Event Id="3187507146" Name="Play_Test" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="447110891"/>
-						</Custom>
-					</PluginRefs>
-				</Event>
-			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{22785465-57F4-0DA9-05D7-665B529B229A}</FileHash>
+	<FileHash>{24588C18-4105-25D1-C5C1-88BCC336D137}</FileHash>
 </SoundBanksInfo>

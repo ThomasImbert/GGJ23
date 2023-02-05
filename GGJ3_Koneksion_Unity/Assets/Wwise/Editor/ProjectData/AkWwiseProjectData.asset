@@ -382,7 +382,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c4405389e94ebe47abf26188999b774e
     GuidInternal: 
-    m_lastTime: -8585260756397822166
+    m_lastTime: -8585259873554069669
     List:
     - name: JPP
       guid: 1b080845add5224dbc02a4046296360d
@@ -1131,9 +1131,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585261016312988378
     List: []
-  ExpandedFileSystemItemIds: 140000001500000021000000220000002500000026000000
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 02000000030000000600000007000000140000001500000021000000220000002500000026000000
+  ExpandedWaapiItemIds: 02000000030000000600000007000000140000001500000021000000220000002500000026000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 
