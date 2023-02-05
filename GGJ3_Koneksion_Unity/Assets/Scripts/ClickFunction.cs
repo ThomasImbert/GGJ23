@@ -7,6 +7,7 @@ public class ClickFunction : MonoBehaviour
 {
     public Animator cameraAnimator;
     public Camera cam;
+    public GameObject optionsMenu;
 
     void Start()
     {
@@ -14,6 +15,10 @@ public class ClickFunction : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            optionsMenu.SetActive(!optionsMenu.activeInHierarchy);
+        }
         DetectObjectWithRaycast();
     }
 
@@ -109,4 +114,5 @@ public class ClickFunction : MonoBehaviour
         }
     }
 
+    
 }

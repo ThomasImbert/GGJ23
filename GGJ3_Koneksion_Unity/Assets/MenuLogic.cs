@@ -20,7 +20,7 @@ public class MenuLogic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AkSoundEngine.SetRTPCValue("master_Volume_RTPC", masterVolumeSlider.value);
+        AkSoundEngine.SetRTPCValue("Master_Volume_RTPC", masterVolumeSlider.value);
         AkSoundEngine.SetRTPCValue("SFX_Volume_RTPC", sfxVolumeSlider.value);
         AkSoundEngine.SetRTPCValue("Music_Volume_RTPC", musicVolumeSlider.value);
         AkSoundEngine.SetRTPCValue("Ambiance_Volume_RTPC", ambianceVolumeSlider.value);

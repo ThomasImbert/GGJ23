@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Target
+  - OptionsCamera
   layers:
   - Default
   - TransparentFX
@@ -42,12 +43,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 2050750749
+  - name: Menu
+    uniqueID: 3146201829
     locked: 0
   - name: GameLogic
     uniqueID: 2867495621
     locked: 0
-  - name: Menu
-    uniqueID: 3146201829
+  - name: Background
+    uniqueID: 2050750749
     locked: 0
