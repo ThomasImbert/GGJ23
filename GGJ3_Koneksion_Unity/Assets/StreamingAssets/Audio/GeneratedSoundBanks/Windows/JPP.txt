@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	315336149	Play_GRAVEYARD			\Default Work Unit\Play_GRAVEYARD	
+	505928471	Stop_GRAVEYARD			\Default Work Unit\Stop_GRAVEYARD	
 	1473554808	Play_FLOOR			\Default Work Unit\Play_FLOOR	
 	2135754993	Play_ROOTS			\Default Work Unit\Play_ROOTS	
 	3187507146	Play_Test			\Default Work Unit\Play_Test	
@@ -16,9 +18,19 @@ State	ID	Name	State Group			Notes
 	1573921923	Fourth_Outlet	Music_State			
 	1645992811	Second_Outlet	Music_State			
 	2221782172	Fifth_Outlet	Music_State			
+	3430678834	Eight_Outlet	Music_State			
+	3663346869	Sixth_Outlet	Music_State			
+	3791539724	Seventh_Outlet	Music_State			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	816649	Eight_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER		
+	22291116	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		
+	22868242	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
+	23979091	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
+	36654177	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
+	39333775	Seventh_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD		
 	56021032	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD		
+	74968269	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
 	75453622	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER		
 	87670073	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		
 	95602386	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		
@@ -29,45 +41,72 @@ Custom State	ID	Name	State Group	Owner		Notes
 	182249929	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS		
 	199399106	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO		
 	211254203	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD		
+	218155251	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
 	220003015	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO		
 	252823834	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD		
+	267723869	Sixth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
+	280761629	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
 	305304384	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
 	306427266	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER		
 	306639856	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		
 	322220235	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		
+	332651955	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
 	333158000	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD		
 	359545654	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
 	390761922	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR		
 	393571030	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR		
+	415638772	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
 	431464517	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER		
+	431529832	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		
 	438181999	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER		
 	446773443	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'		
 	466110512	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		
+	477719491	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
 	489473055	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
 	492017671	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		
 	499443488	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS		
+	510720649	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
+	543331958	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
 	549686655	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT		
 	574844728	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
+	578366449	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
+	589305581	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		
+	607876497	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
 	639272520	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER		
 	720476882	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS		
 	720653496	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER		
 	722187969	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD		
+	728442833	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
 	749520152	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		
 	750889100	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		
 	765309792	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB		
 	766374286	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		
 	779303979	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD		
 	781469570	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
+	791930025	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
+	797238609	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		
 	799370459	Fourth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
+	799551497	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
+	802921075	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
 	829003277	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT		
+	837087611	Sixth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
 	864005436	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		
+	871049088	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
+	899505986	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
+	930105255	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
 	937291834	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER		
+	938384176	First_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		
+	963500122	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		
+	991550312	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		
 	995185798	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT		
+	995399086	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
 	1005091053	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		
+	1022318938	Sixth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		
 	1043351339	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		
 	1045440506	Third_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR		
 	1055299594	Default	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA'\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		
 	1060035369	Fifth_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA		
+	1070757399	Second_Outlet	Music_State	\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER		
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	447110891	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\Test\Sine	
@@ -75,6 +114,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6838777	ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT		3407139
 	56426120	ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER		2049320
+	103989039	ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD\ELECTRICAL OUTLET GRAVEYARD PA\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER		926460
 	134368730	ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT		2350451
 	249663418	ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER		3064484
 	270942030	ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD		2962400
@@ -83,11 +123,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	415641626	ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR		1999250
 	451968940	ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO		1647172
 	455239662	FLOORSCRAPER - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM PIANO		1627534
+	463353919	ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD\ELECTRICAL OUTLET GRAVEYARD PA\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD		796146
 	517735802	FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD		1790557
 	714764727	ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PB\ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD		1629573
 	757255039	ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS		3355128
 	764972239	FLOORSCRAPER - 83 BPM - STEM DRONE	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM DRONE_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM DRONE		2488998
 	795774841	ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR		3034166
-	889915326	FLOORSCRAPER - 83 BPM - STEM GTR 	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR 		1508492
+	811357329	ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ELECTRICAL OUTLET GRAVEYARD\ELECTRICAL OUTLET GRAVEYARD PA\ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO		640615
+	889915326	FLOORSCRAPER - 83 BPM - STEM GTR	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\FLOORSCRAPER - 83 BPM - STEM GTR _073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\FLOORSCRAPER\FLOORSCRAPER PA\FLOORSCRAPER - 83 BPM - STEM GTR		1508492
 	925900244	ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO	C:\Users\Rémi\Documents\GGJ23_Wwise\GGJ23_WwiseProject\.cache\Windows\SFX\ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC SWITCH\ROOTS ON THE ROOF\ROOTS ON THE ROOF PA\ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO		2567034
 

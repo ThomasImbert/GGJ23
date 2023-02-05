@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{EADE2D0F-E80D-2797-A062-A507857462E3}">
+		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{C2E210CF-3940-6664-39A9-F358393EAA88}">
 			<ShortName>JPP</ShortName>
 			<Path>JPP.bnk</Path>
 			<Media>
@@ -20,6 +20,10 @@
 				<File Id="56426120" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="103989039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
+					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="134368730" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT.wav</ShortName>
@@ -53,6 +57,10 @@
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM PIANO.wav</ShortName>
 					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
 				</File>
+				<File Id="463353919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
+					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
 				<File Id="517735802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
 					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
@@ -72,6 +80,10 @@
 				<File Id="795774841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR .wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="811357329" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO.wav</ShortName>
+					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
 				</File>
 				<File Id="889915326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM GTR .wav</ShortName>
@@ -95,6 +107,13 @@
 						<MediaRef Id="517735802"/>
 						<MediaRef Id="764972239"/>
 						<MediaRef Id="889915326"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="315336149" Name="Play_GRAVEYARD" DurationType="OneShot" DurationMin="26.775555" DurationMax="26.775555">
+					<MediaRefs>
+						<MediaRef Id="103989039"/>
+						<MediaRef Id="463353919"/>
+						<MediaRef Id="811357329"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2135754993" Name="Play_ROOTS" DurationType="Infinite">
@@ -124,6 +143,7 @@
 					</PluginRefs>
 				</Event>
 				<Event Id="3605768394" Name="Stop_FLOOR" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="505928471" Name="Stop_GRAVEYARD" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4220051187" Name="Stop_ROOTS" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<StateGroups>
@@ -136,6 +156,9 @@
 						<State Id="1573921923" Name="Fourth_Outlet"/>
 						<State Id="1645992811" Name="Second_Outlet"/>
 						<State Id="2221782172" Name="Fifth_Outlet"/>
+						<State Id="3430678834" Name="Eight_Outlet"/>
+						<State Id="3663346869" Name="Sixth_Outlet"/>
+						<State Id="3791539724" Name="Seventh_Outlet"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -162,6 +185,9 @@
 						<State Id="1573921923" Name="Fourth_Outlet"/>
 						<State Id="1645992811" Name="Second_Outlet"/>
 						<State Id="2221782172" Name="Fifth_Outlet"/>
+						<State Id="3430678834" Name="Eight_Outlet"/>
+						<State Id="3663346869" Name="Sixth_Outlet"/>
+						<State Id="3791539724" Name="Seventh_Outlet"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -280,7 +306,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{C4DFA487-9B78-ECC4-41DC-9E1ECEECA6A0}">
+		<SoundBank Id="3157003241" Type="User" Language="SFX">
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
 			<Plugins>
@@ -299,5 +325,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{933D7A85-97A1-6BBE-1CC3-919EF19CB64A}</FileHash>
+	<FileHash>{67DE91AF-B621-F1FD-C154-8FCDFA9C8938}</FileHash>
 </SoundBanksInfo>
