@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{48B4251B-5B8B-AA5D-5A50-466DF2B1B480}">
+		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{EADE2D0F-E80D-2797-A062-A507857462E3}">
 			<ShortName>JPP</ShortName>
 			<Path>JPP.bnk</Path>
 			<Media>
@@ -33,6 +33,10 @@
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
 				</File>
+				<File Id="359791965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
+				</File>
 				<File Id="400686110" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS .wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS _073B4D0C.wem</CachePath>
@@ -45,6 +49,14 @@
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
 				</File>
+				<File Id="455239662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM PIANO.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="517735802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
 				<File Id="714764727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
@@ -53,9 +65,17 @@
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS .wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS _073B4D0C.wem</CachePath>
 				</File>
+				<File Id="764972239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM DRONE.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM DRONE_073B4D0C.wem</CachePath>
+				</File>
 				<File Id="795774841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR .wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="889915326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM GTR .wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
 				</File>
 				<File Id="925900244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO.wav</ShortName>
@@ -68,6 +88,15 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="1473554808" Name="Play_FLOOR" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="359791965"/>
+						<MediaRef Id="455239662"/>
+						<MediaRef Id="517735802"/>
+						<MediaRef Id="764972239"/>
+						<MediaRef Id="889915326"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2135754993" Name="Play_ROOTS" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="6838777"/>
@@ -83,6 +112,9 @@
 						<MediaRef Id="795774841"/>
 						<MediaRef Id="925900244"/>
 					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3826569560" Id="782826392" Name="Default"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="3187507146" Name="Play_Test" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
 					<PluginRefs>
@@ -91,10 +123,24 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="3605768394" Name="Stop_FLOOR" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4220051187" Name="Stop_ROOTS" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State">
+					<States>
+						<State Id="296419799" Name="First_Outlet"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="1460986192" Name="Third_Outlet"/>
+						<State Id="1573921923" Name="Fourth_Outlet"/>
+						<State Id="1645992811" Name="Second_Outlet"/>
+						<State Id="2221782172" Name="Fifth_Outlet"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{12CFA26C-37A2-8320-D207-FB3D9E728D5F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F2AEA312-33FA-521D-D16D-0EE3895A7FAF}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -106,6 +152,19 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State">
+					<States>
+						<State Id="296419799" Name="First_Outlet"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="1460986192" Name="Third_Outlet"/>
+						<State Id="1573921923" Name="Fourth_Outlet"/>
+						<State Id="1645992811" Name="Second_Outlet"/>
+						<State Id="2221782172" Name="Fifth_Outlet"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick">
 					<Properties>
@@ -240,5 +299,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{39D7E084-A270-C8A1-28E3-B3DA4E28DF28}</FileHash>
+	<FileHash>{933D7A85-97A1-6BBE-1CC3-919EF19CB64A}</FileHash>
 </SoundBanksInfo>
