@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{58E8F4B9-E159-84F5-F090-1C582E82DA86}">
+		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{739E39F7-4615-0B35-CB5C-BE69EE11CF66}">
 			<ShortName>JPP</ShortName>
 			<Path>JPP.bnk</Path>
 			<Media>
@@ -25,9 +25,29 @@
 					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
 					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
 				</File>
+				<File Id="109473593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - SD.wav</ShortName>
+					<CachePath>SFX/KONEKSION - SD_D76C7458.wem</CachePath>
+				</File>
 				<File Id="134368730" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="152322747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 5.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 5_755F56E2.wem</CachePath>
+				</File>
+				<File Id="175787860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - FOURTH RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - FOURTH RECTANGLE_B2D85705.wem</CachePath>
+				</File>
+				<File Id="236837832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 2.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 2_755F56E2.wem</CachePath>
+				</File>
+				<File Id="247202181" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 1.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 1_755F56E2.wem</CachePath>
 				</File>
 				<File Id="249663418" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
@@ -36,6 +56,10 @@
 				<File Id="270942030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="306036284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - CONTINUOUS BUZZ.wav</ShortName>
+					<CachePath>SFX/KONEKSION - CONTINUOUS BUZZ_D48553C7.wem</CachePath>
 				</File>
 				<File Id="359791965" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
@@ -49,6 +73,10 @@
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR .wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
 				</File>
+				<File Id="431750729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 4.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 4_755F56E2.wem</CachePath>
+				</File>
 				<File Id="451968940" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
@@ -61,9 +89,21 @@
 					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
 					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
 				</File>
+				<File Id="511416885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 3.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 3_755F56E2.wem</CachePath>
+				</File>
 				<File Id="517735802" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
 					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="542861868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 5.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 5_755F56E2.wem</CachePath>
+				</File>
+				<File Id="623688083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 1.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 1_755F56E2.wem</CachePath>
 				</File>
 				<File Id="714764727" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
@@ -73,9 +113,17 @@
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS .wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS _073B4D0C.wem</CachePath>
 				</File>
+				<File Id="764827914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 7.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 7_755F56E2.wem</CachePath>
+				</File>
 				<File Id="764972239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM DRONE.wav</ShortName>
 					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM DRONE_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="792188403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 3.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 3_755F56E2.wem</CachePath>
 				</File>
 				<File Id="795774841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR .wav</ShortName>
@@ -89,9 +137,37 @@
 					<ShortName>FLOORSCRAPER - 83 BPM - STEM GTR .wav</ShortName>
 					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
 				</File>
+				<File Id="899524167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - FIRST RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - FIRST RECTANGLE_BE208114.wem</CachePath>
+				</File>
+				<File Id="918219294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 2.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 2_755F56E2.wem</CachePath>
+				</File>
 				<File Id="925900244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO.wav</ShortName>
 					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="938547331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - THIRD RECTANGLE_1.wav</ShortName>
+					<CachePath>SFX/KONEKSION - THIRD RECTANGLE_1_97DF2669.wem</CachePath>
+				</File>
+				<File Id="945526079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - FIFTH RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - FIFTH RECTANGLE_E61F0278.wem</CachePath>
+				</File>
+				<File Id="974856993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - SECOND RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - SECOND RECTANGLE_77F8526F.wem</CachePath>
+				</File>
+				<File Id="1008671491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 6.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 6_755F56E2.wem</CachePath>
+				</File>
+				<File Id="1046007714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 4.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 4_755F56E2.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -100,6 +176,58 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="1312697745" Name="Play_AMBIANCE_SWITCH" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1281810935" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="109473593"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="117868958"/>
+							<MediaRefs>
+								<MediaRef Id="945526079"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="418045379"/>
+							<MediaRefs>
+								<MediaRef Id="899524167"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1529178447"/>
+							<MediaRefs>
+								<MediaRef Id="974856993"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1737148314"/>
+							<MediaRefs>
+								<MediaRef Id="938547331"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1985572375"/>
+							<MediaRefs>
+								<MediaRef Id="175787860"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2459940809" Name="Play_BUZZES" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="152322747"/>
+						<MediaRef Id="306036284"/>
+						<MediaRef Id="431750729"/>
+						<MediaRef Id="623688083"/>
+						<MediaRef Id="764827914"/>
+						<MediaRef Id="792188403"/>
+						<MediaRef Id="918219294"/>
+						<MediaRef Id="1008671491"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1473554808" Name="Play_FLOOR" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="359791965"/>
@@ -114,6 +242,15 @@
 						<MediaRef Id="103989039"/>
 						<MediaRef Id="463353919"/>
 						<MediaRef Id="811357329"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2187493489" Name="Play_OUTLET" DurationType="OneShot" DurationMin="4.0733333" DurationMax="6.4973335">
+					<MediaRefs>
+						<MediaRef Id="236837832"/>
+						<MediaRef Id="247202181"/>
+						<MediaRef Id="511416885"/>
+						<MediaRef Id="542861868"/>
+						<MediaRef Id="1046007714"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2135754993" Name="Play_ROOTS" DurationType="Infinite">
@@ -142,12 +279,15 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="2478053135" Name="Stop_AMBIANCE_SWITCH" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3753166191" Name="Stop_BUZZES" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3605768394" Name="Stop_FLOOR" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="505928471" Name="Stop_GRAVEYARD" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4220051187" Name="Stop_ROOTS" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
-				<GameParameter Id="3131952431" Name="Music_Volume_RTPC"/>
+				<GameParameter Id="2323009266" Name="Zoom_RTPC"/>
+				<GameParameter Id="2654583815" Name="SFX_Volume_RTPC"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3826569560" Name="Music_State">
@@ -165,8 +305,20 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="439968226" Name="Amb_Switch">
+					<Switches>
+						<Switch Id="117868958" Name="Fifth_Rectangle"/>
+						<Switch Id="418045379" Name="First_Rectangle"/>
+						<Switch Id="1281810935" Name="Start"/>
+						<Switch Id="1529178447" Name="Second_Rectangle"/>
+						<Switch Id="1737148314" Name="Third_Rectangle"/>
+						<Switch Id="1985572375" Name="Fourth_Rectangle"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0E6121BE-8FE7-EEED-748B-EA46955D554E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F0058A6C-48AE-37C2-6779-77CC25301452}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -183,6 +335,7 @@
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="939099552" Name="Ambiance_Volume_RTPC"/>
+				<GameParameter Id="2323009266" Name="Zoom_RTPC"/>
 				<GameParameter Id="2585960002" Name="Master_Volume_RTPC"/>
 				<GameParameter Id="2654583815" Name="SFX_Volume_RTPC"/>
 				<GameParameter Id="3131952431" Name="Music_Volume_RTPC"/>
@@ -200,6 +353,13 @@
 						<State Id="3430678834" Name="Eight_Outlet"/>
 						<State Id="3663346869" Name="Sixth_Outlet"/>
 						<State Id="3791539724" Name="Seventh_Outlet"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1256202815" Name="Play"/>
+						<State Id="2607556080" Name="Menu"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -349,5 +509,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0DC0987B-29CF-0F70-CBAD-2D1EC9E9D130}</FileHash>
+	<FileHash>{22785465-57F4-0DA9-05D7-665B529B229A}</FileHash>
 </SoundBanksInfo>
