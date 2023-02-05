@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6dd83c86b025c14db6404f075f485f58
     GuidInternal: 
-    m_lastTime: -8585261016312709117
+    m_lastTime: -8585259813759298753
     List: []
   - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
     PathAndIcons:
@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585261019055406377
+    m_lastTime: -8585259813759290079
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6cfcf3461f1873498f8f8b92b640ecf5
     GuidInternal: 
-    m_lastTime: -8585259926990518915
+    m_lastTime: -8585259813767559282
     List:
     - name: AMBIANCE
       guid: 8b47b7f035989242a748ed417e7fe936
@@ -382,7 +382,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c4405389e94ebe47abf26188999b774e
     GuidInternal: 
-    m_lastTime: -8585259826183020900
+    m_lastTime: -8585259813759319162
     List:
     - name: SBK_Main
       guid: 2602b0a4608a1147afcff8236f43a073
@@ -410,7 +410,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48348d2128194947b11d61ceeebfa0e5
     GuidInternal: 
-    m_lastTime: -8585259903910736776
+    m_lastTime: -8585259813767698905
     List:
     - name: Play_AMBIANCE_SWITCH
       guid: 47b52c63922ab44382eb2bb2845165c0
@@ -645,7 +645,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 303ef44b7428bb498a1ed96c0aadb728
     GuidInternal: 
-    m_lastTime: -8585259906972304900
+    m_lastTime: -8585259813767619115
     List:
     - name: Ambiance_Volume_RTPC
       guid: f79df1f80c92a34d8dc67fb85f756fe3
@@ -729,7 +729,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 057a56a8a15e6141bd6eda6aa62586f4
     GuidInternal: 
-    m_lastTime: -8585259896452208468
+    m_lastTime: -8585259813759308583
     List:
     - name: GameState
       guid: 166939a905052e448282d48e706560b4
@@ -987,7 +987,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 0fdd8cd095d957449cf8fb2b7d70092f
     GuidInternal: 
-    m_lastTime: -8585260006199444947
+    m_lastTime: -8585259813759308583
     List:
     - name: Amb_Switch
       guid: b315d2951951164b9e7e812319e73f06
@@ -1115,10 +1115,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 654bd1376bc45247b23cb01a89c46d74
     GuidInternal: 
-    m_lastTime: -8585261016312988378
+    m_lastTime: -8585259813759298753
     List: []
-  ExpandedFileSystemItemIds: 010000002b0000002c000000
-  ExpandedWaapiItemIds: 020000002b0000002c000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 1

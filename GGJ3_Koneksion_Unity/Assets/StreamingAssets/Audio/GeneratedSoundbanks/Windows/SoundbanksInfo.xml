@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../../../GGJ23_Wwise/GGJ23_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../GGJ23_Wwise/GGJ23_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../../../GGJ23_Wwise/GGJ23_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{BAC49430-CC14-3859-6413-3B16BAA3A911}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{0E1C2568-D5AE-486D-AECA-8A4104CF5B46}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{5C4ADA5B-081D-432E-8915-D532B6517EA4}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX" GUID="{492186D7-4F65-4196-8A8A-14706C4BEC12}"/>
+				<Bus Id="2981377429" Name="AMBIANCE" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AMBIANCE" GUID="{F0B7478B-9835-4292-A748-ED417E7FE936}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="MUSIC" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MUSIC" GUID="{50FCC495-A152-4E93-86C8-DDDA2705F363}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="939099552" Name="Ambiance_Volume_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Ambiance_Volume_RTPC" GUID="{F8F19DF7-920C-4DA3-8DC6-7FB85F756FE3}"/>
+				<GameParameter Id="2323009266" Name="Zoom_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Zoom_RTPC" GUID="{B6C2F7BC-8163-4322-A757-AF019008D27F}"/>
+				<GameParameter Id="2585960002" Name="Master_Volume_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume_RTPC" GUID="{729BAB9F-1615-4807-81C4-5B8EB3A194C7}"/>
+				<GameParameter Id="2654583815" Name="SFX_Volume_RTPC" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume_RTPC" GUID="{FFC7BEB2-E66B-48C6-A741-0DAB7BAFD6DC}"/>
+				<GameParameter Id="3131952431" Name="Music_Volume_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume_RTPC" GUID="{17C4AFF4-6D3F-497C-9E15-A638EFEB1460}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State" ObjectPath="\States\Default Work Unit\Music_State" GUID="{CCC35295-7C12-4F7F-8385-77016961B011}">
+					<States>
+						<State Id="296419799" Name="First_Outlet" ObjectPath="\States\Default Work Unit\Music_State\First_Outlet" GUID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_State\None" GUID="{4023FE34-C575-42C0-9FB5-393E256E041F}"/>
+						<State Id="782826392" Name="Default" ObjectPath="\States\Default Work Unit\Music_State\Default" GUID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+						<State Id="1460986192" Name="Third_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Third_Outlet" GUID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+						<State Id="1573921923" Name="Fourth_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Fourth_Outlet" GUID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+						<State Id="1645992811" Name="Second_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Second_Outlet" GUID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+						<State Id="2221782172" Name="Fifth_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Fifth_Outlet" GUID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+						<State Id="3430678834" Name="Eight_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Eight_Outlet" GUID="{86A351FB-4D02-444F-BBD5-6972FDE669B7}"/>
+						<State Id="3663346869" Name="Sixth_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Sixth_Outlet" GUID="{9FBBC00A-BD84-4A52-AE92-EC55326FEDAC}"/>
+						<State Id="3791539724" Name="Seventh_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Seventh_Outlet" GUID="{FC2300F3-F423-4128-98CA-925F7E991468}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{A9396916-0505-442E-8282-D48E706560B4}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{9D27ADAC-887E-4CE7-AD09-13ED7483E411}"/>
+						<State Id="1256202815" Name="Play" ObjectPath="\States\Default Work Unit\GameState\Play" GUID="{11A1D3E4-C1E2-41AA-8120-15BC3A40AD8B}"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\GameState\Menu" GUID="{5651C720-C1AD-4D95-9C44-18CCC5C8C80A}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="439968226" Name="Amb_Switch" ObjectPath="\Switches\Default Work Unit\Amb_Switch" GUID="{95D215B3-5119-4B16-9E7E-812319E73F06}">
+					<Switches>
+						<Switch Id="117868958" Name="Fifth_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Fifth_Rectangle" GUID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
+						<Switch Id="418045379" Name="First_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\First_Rectangle" GUID="{5816308C-BC2B-4F01-AFAC-F7DCF3A26DE3}"/>
+						<Switch Id="1281810935" Name="Start" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Start" GUID="{EDE3D42F-555D-48E9-8ABF-949BFADAD685}"/>
+						<Switch Id="1529178447" Name="Second_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Second_Rectangle" GUID="{A1EFABD2-888A-43A0-B52D-2C17F9F17928}"/>
+						<Switch Id="1737148314" Name="Third_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Third_Rectangle" GUID="{98D1F8D7-364B-4173-84E8-0655A08B2C77}"/>
+						<Switch Id="1985572375" Name="Fourth_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Fourth_Rectangle" GUID="{DBAC92E1-B4B0-4E44-8CC5-EABD6F11D31C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="2354509155" Type="User" GUID="{A4B00226-8A60-4711-AFCF-F8236F43A073}" Language="SFX" Hash="{9740C2F2-E63E-FAA3-9275-9226BC2C083F}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SBK_Main</ObjectPath>
+			<ShortName>SBK_Main</ShortName>
+			<Path>SBK_Main.bnk</Path>
+			<Media>
+				<File Id="6838777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="56426120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="103989039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
+					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="109473593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - SD.wav</ShortName>
+					<CachePath>SFX/KONEKSION - SD_BFB35445.wem</CachePath>
+				</File>
+				<File Id="134368730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="152322747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 5.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 5_755F56E2.wem</CachePath>
+				</File>
+				<File Id="175787860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - FOURTH RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - FOURTH RECTANGLE_D955125A.wem</CachePath>
+				</File>
+				<File Id="236837832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 2.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 2_755F56E2.wem</CachePath>
+				</File>
+				<File Id="247202181" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 1.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="249663418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="270942030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="306036284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - CONTINUOUS BUZZ.wav</ShortName>
+					<CachePath>SFX/KONEKSION - CONTINUOUS BUZZ_43B92C25.wem</CachePath>
+				</File>
+				<File Id="359791965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="400686110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS .wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="415641626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR .wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="431750729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 4.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 4_755F56E2.wem</CachePath>
+				</File>
+				<File Id="451968940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="455239662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM PIANO.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="463353919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
+					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="511416885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 3.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 3_755F56E2.wem</CachePath>
+				</File>
+				<File Id="517735802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="542861868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 5.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 5_755F56E2.wem</CachePath>
+				</File>
+				<File Id="623688083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 1.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 1_755F56E2.wem</CachePath>
+				</File>
+				<File Id="714764727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="757255039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS .wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="764827914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 7.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 7_755F56E2.wem</CachePath>
+				</File>
+				<File Id="764972239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM DRONE.wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM DRONE_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="792188403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 3.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 3_755F56E2.wem</CachePath>
+				</File>
+				<File Id="795774841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR .wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="811357329" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO.wav</ShortName>
+					<CachePath>SFX/ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="889915326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FLOORSCRAPER - 83 BPM - STEM GTR .wav</ShortName>
+					<CachePath>SFX/FLOORSCRAPER - 83 BPM - STEM GTR _073B4D0C.wem</CachePath>
+				</File>
+				<File Id="899524167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - FIRST RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - FIRST RECTANGLE_CF67F3A5.wem</CachePath>
+				</File>
+				<File Id="918219294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 2.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 2_755F56E2.wem</CachePath>
+				</File>
+				<File Id="925900244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO.wav</ShortName>
+					<CachePath>SFX/ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO_073B4D0C.wem</CachePath>
+				</File>
+				<File Id="938547331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - THIRD RECTANGLE_1.wav</ShortName>
+					<CachePath>SFX/KONEKSION - THIRD RECTANGLE_1_EB0FF74B.wem</CachePath>
+				</File>
+				<File Id="945526079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - FIFTH RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - FIFTH RECTANGLE_08A6B29C.wem</CachePath>
+				</File>
+				<File Id="952264231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION_-_BUTTON.wav</ShortName>
+					<CachePath>SFX/KONEKSION_-_BUTTON_755F56E2.wem</CachePath>
+				</File>
+				<File Id="974856993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - SECOND RECTANGLE.wav</ShortName>
+					<CachePath>SFX/KONEKSION - SECOND RECTANGLE_48323DD9.wem</CachePath>
+				</File>
+				<File Id="1008671491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - BUZZ 6.wav</ShortName>
+					<CachePath>SFX/KONEKSION - BUZZ 6_755F56E2.wem</CachePath>
+				</File>
+				<File Id="1046007714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>KONEKSION - OUTLET 4.wav</ShortName>
+					<CachePath>SFX/KONEKSION - OUTLET 4_755F56E2.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="447110891" Name="Sine" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Test\Sine" GUID="{18A1A98D-EEE9-4992-8FE2-1BCA9B9E411F}" LibName="Wwise Sine" LibId="6553602"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1312697745" Name="Play_AMBIANCE_SWITCH" ObjectPath="\Events\Default Work Unit\Play_AMBIANCE_SWITCH" GUID="{632CB547-2A92-43B4-82EB-2BB2845165C0}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1281810935" GUID="{EDE3D42F-555D-48E9-8ABF-949BFADAD685}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="109473593"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="117868958" GUID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
+							<MediaRefs>
+								<MediaRef Id="945526079"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="418045379" GUID="{5816308C-BC2B-4F01-AFAC-F7DCF3A26DE3}"/>
+							<MediaRefs>
+								<MediaRef Id="899524167"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1529178447" GUID="{A1EFABD2-888A-43A0-B52D-2C17F9F17928}"/>
+							<MediaRefs>
+								<MediaRef Id="974856993"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1737148314" GUID="{98D1F8D7-364B-4173-84E8-0655A08B2C77}"/>
+							<MediaRefs>
+								<MediaRef Id="938547331"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="439968226" Id="1985572375" GUID="{DBAC92E1-B4B0-4E44-8CC5-EABD6F11D31C}"/>
+							<MediaRefs>
+								<MediaRef Id="175787860"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2459940809" Name="Play_BUZZES" ObjectPath="\Events\Default Work Unit\Play_BUZZES" GUID="{F91D3A51-F9F4-4610-B9BA-EEB055C9068A}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="152322747"/>
+						<MediaRef Id="306036284"/>
+						<MediaRef Id="431750729"/>
+						<MediaRef Id="623688083"/>
+						<MediaRef Id="764827914"/>
+						<MediaRef Id="792188403"/>
+						<MediaRef Id="918219294"/>
+						<MediaRef Id="1008671491"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1473554808" Name="Play_FLOOR" ObjectPath="\Events\Default Work Unit\Play_FLOOR" GUID="{4F84BC05-D082-4F6E-937F-CCCC8CB15A2E}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="359791965"/>
+						<MediaRef Id="455239662"/>
+						<MediaRef Id="517735802"/>
+						<MediaRef Id="764972239"/>
+						<MediaRef Id="889915326"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1497459184" Name="Play_GameStart" ObjectPath="\Events\Default Work Unit\Play_GameStart" GUID="{B7C03BA7-1308-4AB4-9665-1C255A3D11D7}" DurationType="OneShot" DurationMin="0.29333332" DurationMax="0.29333332">
+					<MediaRefs>
+						<MediaRef Id="952264231"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="315336149" Name="Play_GRAVEYARD" ObjectPath="\Events\Default Work Unit\Play_GRAVEYARD" GUID="{1A9C4A87-8483-4CD7-8EE9-308D86BFA767}" DurationType="OneShot" DurationMin="26.775555" DurationMax="26.775555">
+					<MediaRefs>
+						<MediaRef Id="103989039"/>
+						<MediaRef Id="463353919"/>
+						<MediaRef Id="811357329"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2187493489" Name="Play_OUTLET" ObjectPath="\Events\Default Work Unit\Play_OUTLET" GUID="{B4175DA0-1752-4914-BA05-E31B5F028653}" DurationType="OneShot" DurationMin="4.0733333" DurationMax="6.4973335">
+					<MediaRefs>
+						<MediaRef Id="236837832"/>
+						<MediaRef Id="247202181"/>
+						<MediaRef Id="511416885"/>
+						<MediaRef Id="542861868"/>
+						<MediaRef Id="1046007714"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2135754993" Name="Play_ROOTS" ObjectPath="\Events\Default Work Unit\Play_ROOTS" GUID="{4A268D04-9D4A-49D5-B6F5-96FC13E8554A}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3826569560" Id="782826392" GUID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+							<MediaRefs>
+								<MediaRef Id="6838777"/>
+								<MediaRef Id="56426120"/>
+								<MediaRef Id="134368730"/>
+								<MediaRef Id="249663418"/>
+								<MediaRef Id="270942030"/>
+								<MediaRef Id="400686110"/>
+								<MediaRef Id="415641626"/>
+								<MediaRef Id="451968940"/>
+								<MediaRef Id="714764727"/>
+								<MediaRef Id="757255039"/>
+								<MediaRef Id="795774841"/>
+								<MediaRef Id="925900244"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3826569560" Id="2221782172" GUID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+							<MediaRefs>
+								<MediaRef Id="359791965"/>
+								<MediaRef Id="455239662"/>
+								<MediaRef Id="517735802"/>
+								<MediaRef Id="764972239"/>
+								<MediaRef Id="889915326"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3826569560" Id="3430678834" GUID="{86A351FB-4D02-444F-BBD5-6972FDE669B7}"/>
+							<MediaRefs>
+								<MediaRef Id="103989039"/>
+								<MediaRef Id="463353919"/>
+								<MediaRef Id="811357329"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" GUID="{5A178839-2736-4D33-AF25-D7425B638C67}" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="447110891"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2478053135" Name="Stop_AMBIANCE_SWITCH" ObjectPath="\Events\Default Work Unit\Stop_AMBIANCE_SWITCH" GUID="{6FDDC17A-04CB-4165-8CF3-2EB0B897289F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3753166191" Name="Stop_BUZZES" ObjectPath="\Events\Default Work Unit\Stop_BUZZES" GUID="{610C1DE4-607E-4902-8CD7-371382EF9D54}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3605768394" Name="Stop_FLOOR" ObjectPath="\Events\Default Work Unit\Stop_FLOOR" GUID="{88F1A79B-2F14-4BF7-A31F-FE1629347AE3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="505928471" Name="Stop_GRAVEYARD" ObjectPath="\Events\Default Work Unit\Stop_GRAVEYARD" GUID="{391559E0-1135-43D5-AFAD-6BC8CCD5781D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4220051187" Name="Stop_ROOTS" ObjectPath="\Events\Default Work Unit\Stop_ROOTS" GUID="{5A52F324-5B20-4367-A114-D3B1185D8ABB}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2323009266" Name="Zoom_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Zoom_RTPC" GUID="{B6C2F7BC-8163-4322-A757-AF019008D27F}"/>
+				<GameParameter Id="2654583815" Name="SFX_Volume_RTPC" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume_RTPC" GUID="{FFC7BEB2-E66B-48C6-A741-0DAB7BAFD6DC}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State" ObjectPath="\States\Default Work Unit\Music_State" GUID="{CCC35295-7C12-4F7F-8385-77016961B011}">
+					<States>
+						<State Id="296419799" Name="First_Outlet" ObjectPath="\States\Default Work Unit\Music_State\First_Outlet" GUID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_State\None" GUID="{4023FE34-C575-42C0-9FB5-393E256E041F}"/>
+						<State Id="782826392" Name="Default" ObjectPath="\States\Default Work Unit\Music_State\Default" GUID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+						<State Id="1460986192" Name="Third_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Third_Outlet" GUID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+						<State Id="1573921923" Name="Fourth_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Fourth_Outlet" GUID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+						<State Id="1645992811" Name="Second_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Second_Outlet" GUID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+						<State Id="2221782172" Name="Fifth_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Fifth_Outlet" GUID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+						<State Id="3430678834" Name="Eight_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Eight_Outlet" GUID="{86A351FB-4D02-444F-BBD5-6972FDE669B7}"/>
+						<State Id="3663346869" Name="Sixth_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Sixth_Outlet" GUID="{9FBBC00A-BD84-4A52-AE92-EC55326FEDAC}"/>
+						<State Id="3791539724" Name="Seventh_Outlet" ObjectPath="\States\Default Work Unit\Music_State\Seventh_Outlet" GUID="{FC2300F3-F423-4128-98CA-925F7E991468}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="439968226" Name="Amb_Switch" ObjectPath="\Switches\Default Work Unit\Amb_Switch" GUID="{95D215B3-5119-4B16-9E7E-812319E73F06}">
+					<Switches>
+						<Switch Id="117868958" Name="Fifth_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Fifth_Rectangle" GUID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
+						<Switch Id="418045379" Name="First_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\First_Rectangle" GUID="{5816308C-BC2B-4F01-AFAC-F7DCF3A26DE3}"/>
+						<Switch Id="1281810935" Name="Start" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Start" GUID="{EDE3D42F-555D-48E9-8ABF-949BFADAD685}"/>
+						<Switch Id="1529178447" Name="Second_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Second_Rectangle" GUID="{A1EFABD2-888A-43A0-B52D-2C17F9F17928}"/>
+						<Switch Id="1737148314" Name="Third_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Third_Rectangle" GUID="{98D1F8D7-364B-4173-84E8-0655A08B2C77}"/>
+						<Switch Id="1985572375" Name="Fourth_Rectangle" ObjectPath="\Switches\Default Work Unit\Amb_Switch\Fourth_Rectangle" GUID="{DBAC92E1-B4B0-4E44-8CC5-EABD6F11D31C}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{884D2694-6048-FA72-18EA-CDC2E9AA7B3F}</FileHash>
+</SoundBanksInfo>

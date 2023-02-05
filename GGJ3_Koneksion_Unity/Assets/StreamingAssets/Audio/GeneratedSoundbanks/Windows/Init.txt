@@ -1,0 +1,49 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Default Work Unit\Music_State	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	296419799	First_Outlet	Music_State			
+	748895195	None	Music_State			
+	782826392	Default	Music_State			
+	1460986192	Third_Outlet	Music_State			
+	1573921923	Fourth_Outlet	Music_State			
+	1645992811	Second_Outlet	Music_State			
+	2221782172	Fifth_Outlet	Music_State			
+	3430678834	Eight_Outlet	Music_State			
+	3663346869	Sixth_Outlet	Music_State			
+	3791539724	Seventh_Outlet	Music_State			
+	748895195	None	GameState			
+	1256202815	Play	GameState			
+	2607556080	Menu	GameState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	939099552	Ambiance_Volume_RTPC			\Default Work Unit\Ambiance_Volume_RTPC	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2585960002	Master_Volume_RTPC			\Default Work Unit\Master_Volume_RTPC	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2654583815	SFX_Volume_RTPC			\Default Work Unit\SFX_Volume_RTPC	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3131952431	Music_Volume_RTPC			\Default Work Unit\Music_Volume_RTPC	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	2981377429	AMBIANCE			\Default Work Unit\Master Audio Bus\AMBIANCE	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
