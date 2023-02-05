@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6cfcf3461f1873498f8f8b92b640ecf5
     GuidInternal: 
-    m_lastTime: -8585260006207866790
+    m_lastTime: -8585259926990518915
     List:
     - name: AMBIANCE
       guid: 8b47b7f035989242a748ed417e7fe936
@@ -424,8 +424,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 48348d2128194947b11d61ceeebfa0e5
     GuidInternal: 
-    m_lastTime: -8585260031191541049
+    m_lastTime: -8585259903910736776
     List:
+    - name: Play_AMBIANCE_SWITCH
+      guid: 47b52c63922ab44382eb2bb2845165c0
+      id: 1312697745
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Play_AMBIANCE_SWITCH
+        ObjectType: 3
+        guid: 47b52c63922ab44382eb2bb2845165c0
+      Path: Events\Default Work Unit\Play_AMBIANCE_SWITCH
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BUZZES
+      guid: 513a1df9f4f91046b9baeeb055c9068a
+      id: 2459940809
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Play_BUZZES
+        ObjectType: 3
+        guid: 513a1df9f4f91046b9baeeb055c9068a
+      Path: Events\Default Work Unit\Play_BUZZES
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_FLOOR
       guid: 05bc844f82d06e4f937fcccc8cb15a2e
       id: 1473554808
@@ -443,6 +477,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_GameStart
+      guid: a73bc0b70813b44a96651c255a3d11d7
+      id: 1497459184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Play_GameStart
+        ObjectType: 3
+        guid: a73bc0b70813b44a96651c255a3d11d7
+      Path: Events\Default Work Unit\Play_GameStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_GRAVEYARD
       guid: 874a9c1a8384d74c8ee9308d86bfa767
       id: 315336149
@@ -457,6 +508,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 874a9c1a8384d74c8ee9308d86bfa767
       Path: Events\Default Work Unit\Play_GRAVEYARD
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_OUTLET
+      guid: a05d17b452171449ba05e31b5f028653
+      id: 2187493489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Play_OUTLET
+        ObjectType: 3
+        guid: a05d17b452171449ba05e31b5f028653
+      Path: Events\Default Work Unit\Play_OUTLET
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -491,6 +559,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3988175a3627334daf25d7425b638c67
       Path: Events\Default Work Unit\Play_Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_AMBIANCE_SWITCH
+      guid: 7ac1dd6fcb0465418cf32eb0b897289f
+      id: 2478053135
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Stop_AMBIANCE_SWITCH
+        ObjectType: 3
+        guid: 7ac1dd6fcb0465418cf32eb0b897289f
+      Path: Events\Default Work Unit\Stop_AMBIANCE_SWITCH
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_BUZZES
+      guid: e41d0c617e6002498cd7371382ef9d54
+      id: 3753166191
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 48348d2128194947b11d61ceeebfa0e5
+      - ElementName: Stop_BUZZES
+        ObjectType: 3
+        guid: e41d0c617e6002498cd7371382ef9d54
+      Path: Events\Default Work Unit\Stop_BUZZES
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -557,7 +659,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 303ef44b7428bb498a1ed96c0aadb728
     GuidInternal: 
-    m_lastTime: -8585260006207916668
+    m_lastTime: -8585259906972304900
     List:
     - name: Ambiance_Volume_RTPC
       guid: f79df1f80c92a34d8dc67fb85f756fe3
@@ -615,6 +717,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: b2bec7ff6be6c648a7410dab7bafd6dc
       Path: Game Parameters\Default Work Unit\SFX_Volume_RTPC
+    - name: Zoom_RTPC
+      guid: bcf7c2b663812243a757af019008d27f
+      id: 2323009266
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 303ef44b7428bb498a1ed96c0aadb728
+      - ElementName: Zoom_RTPC
+        ObjectType: 13
+        guid: bcf7c2b663812243a757af019008d27f
+      Path: Game Parameters\Default Work Unit\Zoom_RTPC
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -627,8 +743,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 057a56a8a15e6141bd6eda6aa62586f4
     GuidInternal: 
-    m_lastTime: -8585260031191511140
+    m_lastTime: -8585259896452208468
     List:
+    - name: GameState
+      guid: 166939a905052e448282d48e706560b4
+      id: 4091656514
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 057a56a8a15e6141bd6eda6aa62586f4
+      - ElementName: GameState
+        ObjectType: 9
+        guid: 166939a905052e448282d48e706560b4
+      Path: States\Default Work Unit\GameState
+      values:
+      - name: Menu
+        guid: 20c75156adc1954d9c4418ccc5c8c80a
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 057a56a8a15e6141bd6eda6aa62586f4
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 166939a905052e448282d48e706560b4
+        - ElementName: Menu
+          ObjectType: 8
+          guid: 20c75156adc1954d9c4418ccc5c8c80a
+      - name: None
+        guid: acad279d7e88e74cad0913ed7483e411
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 057a56a8a15e6141bd6eda6aa62586f4
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 166939a905052e448282d48e706560b4
+        - ElementName: None
+          ObjectType: 8
+          guid: acad279d7e88e74cad0913ed7483e411
+      - name: Play
+        guid: e4d3a111e2c1aa41812015bc3a40ad8b
+        id: 1256202815
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 057a56a8a15e6141bd6eda6aa62586f4
+        - ElementName: GameState
+          ObjectType: 9
+          guid: 166939a905052e448282d48e706560b4
+        - ElementName: Play
+          ObjectType: 8
+          guid: e4d3a111e2c1aa41812015bc3a40ad8b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Music_State
       guid: 9552c3cc127c7f4f838577016961b011
       id: 3826569560
