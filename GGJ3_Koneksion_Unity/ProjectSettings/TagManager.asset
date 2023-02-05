@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - Water
   - UI
   - GameLogic
-  - 
+  - Menu
   - 
   - 
   - 
@@ -46,4 +47,7 @@ TagManager:
     locked: 0
   - name: GameLogic
     uniqueID: 2867495621
+    locked: 0
+  - name: Menu
+    uniqueID: 3146201829
     locked: 0
