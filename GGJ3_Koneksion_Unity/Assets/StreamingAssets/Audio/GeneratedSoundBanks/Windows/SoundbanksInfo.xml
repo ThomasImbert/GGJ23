@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{C2E210CF-3940-6664-39A9-F358393EAA88}">
+		<SoundBank Id="1065771773" Type="User" Language="SFX" Hash="{58E8F4B9-E159-84F5-F090-1C582E82DA86}">
 			<ShortName>JPP</ShortName>
 			<Path>JPP.bnk</Path>
 			<Media>
@@ -146,6 +146,9 @@
 				<Event Id="505928471" Name="Stop_GRAVEYARD" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4220051187" Name="Stop_ROOTS" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3131952431" Name="Music_Volume_RTPC"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3826569560" Name="Music_State">
 					<States>
@@ -163,7 +166,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F2AEA312-33FA-521D-D16D-0EE3895A7FAF}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0E6121BE-8FE7-EEED-748B-EA46955D554E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -173,8 +176,17 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="2981377429" Name="AMBIANCE"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="939099552" Name="Ambiance_Volume_RTPC"/>
+				<GameParameter Id="2585960002" Name="Master_Volume_RTPC"/>
+				<GameParameter Id="2654583815" Name="SFX_Volume_RTPC"/>
+				<GameParameter Id="3131952431" Name="Music_Volume_RTPC"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3826569560" Name="Music_State">
 					<States>
@@ -191,6 +203,18 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="439968226" Name="Amb_Switch">
+					<Switches>
+						<Switch Id="117868958" Name="Fifth_Rectangle"/>
+						<Switch Id="418045379" Name="First_Rectangle"/>
+						<Switch Id="1281810935" Name="Start"/>
+						<Switch Id="1529178447" Name="Second_Rectangle"/>
+						<Switch Id="1737148314" Name="Third_Rectangle"/>
+						<Switch Id="1985572375" Name="Fourth_Rectangle"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick">
 					<Properties>
@@ -325,5 +349,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{67DE91AF-B621-F1FD-C154-8FCDFA9C8938}</FileHash>
+	<FileHash>{0DC0987B-29CF-0F70-CBAD-2D1EC9E9D130}</FileHash>
 </SoundBanksInfo>
